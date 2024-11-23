@@ -1,0 +1,7 @@
+# Ignore the .autosave folder
+.autosave/
+
+# Ignore specific files
+majdata.json
+majSetting.json
+maidata.bak.txt
