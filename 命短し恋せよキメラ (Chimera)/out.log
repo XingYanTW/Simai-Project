@@ -1,0 +1,4 @@
+Command line:
+"C:/Users/xy/Desktop/Majdata/MajdataView_Data/StreamingAssets\\ffmpeg.exe" -hide_banner -y -f rawvideo -vcodec rawvideo -pix_fmt rgba -s 1920x1080 -r 60 -i "\\\\.\\pipe\\majdataRec" -i out.wav -vf vflip -c:v libx264 -preset fast -pix_fmt yuv420p -t 2147483647.0000 -b:a 320k -c:a aac out.mp4
+Guessed Channel Layout for Input Stream #1.0 : stereo
+[rawvideo @ 000001728a9af080] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
