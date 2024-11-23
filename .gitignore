@@ -5,3 +5,12 @@
 majdata.json
 majSetting.json
 maidata.bak.txt
+maidata.before_recovery.txt
+
+# Ignore all .adx and .zip files
+*.adx
+*.zip
+
+# Ignore all .mp4 files except pv.mp4
+*.mp4
+*.wav
