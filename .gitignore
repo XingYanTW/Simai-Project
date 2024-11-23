@@ -14,3 +14,4 @@ maidata.before_recovery.txt
 # Ignore all .mp4 files except pv.mp4
 *.mp4
 *.wav
+*.log
